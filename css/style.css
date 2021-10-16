@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  margin: 0 auto;
+  padding: 1px 1px 1px 1px;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+img.passport {
+  padding: 1px;
+  margin-bottom: 4px;
+  width: 19.5%;
+}
+
+img.stamp {
+  padding: 1px;
+  width: 9.8%;
+  margin-bottom: 10px;
+}
+
+.reload {
+  display: inline block;
+  text-decoration: none;
+  border: 1px solid gray;
+  border-radius: 2px;
+  padding: 1px 10px;
+  background: rgb(233, 228, 228);
+  color: black;
+}
+
+.print {
+  padding: 1px 10px;
+}
