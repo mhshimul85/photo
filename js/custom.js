@@ -48,10 +48,10 @@ $(function () {
   });
 
   $(".print").click(() => {
-    $(".footer").hide();
+    // $(".footer").hide();
     window.print();
-    $(".container").html("");
-    $(".footer").show();
+    // $(".container").html("");
+    // $(".footer").show();
   });
 
   // console.log($(".container").innerWidth());
